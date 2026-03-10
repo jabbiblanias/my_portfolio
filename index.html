@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="A showcase of building premium web experiences. Explore my skills, projects, and connect with me.">
+    <meta name="keywords" content="Portfolio, Web Design, Creative Developer, Projects, Contact, Skills">
+    <meta name="author" content="Your Name">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">PORTFOLIO</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container fade-in">
+            <div class="hero-content">
+                <span class="greeting">Hello, I'm</span>
+                <h1>John April</h1>
+                <p class="bio">A passionate <strong>Creative Developer</strong> crafting immersive digital experiences through clean code and premium design aesthetics.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Let's Talk</a>
+                </div>
+            </div>
+            <div class="profile-pic">
+                <img src="profile.jpeg" alt="John April Profile" onerror="this.src='https://ui-avatars.com/api/?name=John+April&background=3b82f6&color=fff&size=512'">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="reveal">
+        <h2 class="section-title">Technical Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <h3>UI/UX Design</h3>
+                <p>Creating intuitive and visually stunning interfaces.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <h3>Development</h3>
+                <p>Building robust and scalable web applications.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🚀</div>
+                <h3>Optimization</h3>
+                <p>Ensuring high performance and smooth interactions.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🛠️</div>
+                <h3>Tools</h3>
+                <p>Mastering the latest technologies and frameworks.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="reveal">
+        <h2 class="section-title">Recent Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" id="project-1" data-project="ocean">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Ocean Dashboard Project">
+                </div>
+                <div class="project-content">
+                    <h3>Ocean Analytics</h3>
+                    <p>A data-driven dashboard for maritime monitoring using glassmorphism.</p>
+                    <button class="btn btn-secondary learn-more-btn">Learn More</button>
+                </div>
+            </div>
+            <div class="project-card" id="project-2" data-project="nebula">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1614850523296-d8c1af93d400?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Nebula E-commerce Project">
+                </div>
+                <div class="project-content">
+                    <h3>Nebula E-com</h3>
+                    <p>Modern e-commerce platform with dynamic animations and sleek UI.</p>
+                    <button class="btn btn-secondary learn-more-btn">Learn More</button>
+                </div>
+            </div>
+            <div class="project-card" id="project-3" data-project="techsphere">
+                <div class="project-img">
+                    <img src="rpts.png" alt="Regional Project Tracking System">
+                </div>
+                <div class="project-content">
+                    <h3>Regional Project Tracking System</h3>
+                    <p>A web-based system for tracking and managing projects within Bicol Region.</p>
+                    <button class="btn btn-secondary learn-more-btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="reveal">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p>Interested in collaborating or just want to say hello? My inbox is always open.</p>
+                <div style="margin-top: 2rem;">
+                    <p><strong>Email:</strong> johnapril@email.com</p>
+                    <p><strong>Location:</strong> Hybrid / Remote</p>
+                </div>
+                <div style="display: flex; gap: var(--spacing-md); margin-top: 2rem;">
+                  <!-- Replace with actual social icons if available -->
+                  <a href="#" class="logo">GH</a>
+                  <a href="#" class="logo">LI</a>
+                  <a href="#" class="logo">TW</a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="portfolio-contact">
+                    <div class="input-group">
+                        <label for="name" style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary);">Name</label>
+                        <input type="text" id="name" required placeholder="Your Name">
+                    </div>
+                    <div class="input-group" style="margin-top: 1rem;">
+                        <label for="email" style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary);">Email</label>
+                        <input type="email" id="email" required placeholder="your.email@example.com">
+                    </div>
+                    <div class="input-group" style="margin-top: 1rem;">
+                        <label for="message" style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary);">Message</label>
+                        <textarea id="message" rows="5" required placeholder="Let's build something amazing together..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1.5rem;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 John April. Crafted with passion.</p>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content glass">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body">
+                <!-- Project details injected here via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
