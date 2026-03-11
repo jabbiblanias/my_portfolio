@@ -63,13 +63,13 @@ const closeBtn = document.querySelector('.close-modal');
 
 const projectData = {
     ocean: {
-        title: "Ocean Analytics",
+        title: "Employee Management System",
         images: [
-            "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+            "assets/img/ems-dashboard.png",
+            "assets/img/ems-employees.png",
+            "assets/img/ems-daily-attendance.png"
         ],
-        desc: "A comprehensive data visualization platform designed for maritime researchers. It features real-time tracking of ocean currents, temperature shifts, and marine life migration patterns using a modern glassmorphic interface."
+        desc: "A simple application made when I was in 3rd year college for semester project. It was developed using C# and SQL Server. It is a desktop application that is used to manage employee information and monitor their attendance."
     },
     nebula: {
         title: "Nebula E-com",
@@ -82,7 +82,7 @@ const projectData = {
     },
     techsphere: {
         title: "Regional Project Tracking System",
-        images: ["rpts.png"],
+        images: ["assets/img/rpts-landing.png", "assets/img/rpts-charts.png", "assets/img/rpts-projects.png"],
         desc: [
             "The Regional Project Tracking System (RPTS) is a system database containing the priority programs, activities, and projects (PAPs) of regional line agencies, government owned and controlled corporations, and state universities and colleges in the Bicol region that are included in the Regional Development Investment Program (RDIP) 2023-2028.",
             "It is being developed to facilitate the tracking and updating of PAPs and can generate reports as well as investment programming-related documents such as the RDIP, status of RDC-endorsed projects, and list of projects per province/district/city/municipality, among others."
